@@ -238,6 +238,7 @@
                   "platform/integrations/email/netcore",
                   "platform/integrations/email/plunk",
                   "platform/integrations/email/anypost",
+                  "platform/integrations/email/inboxjot",
                   "platform/integrations/email/webhook",
                   "platform/integrations/email/custom-smtp",
                   "platform/integrations/email/writing-email-template",

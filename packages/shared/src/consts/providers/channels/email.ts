@@ -11,6 +11,7 @@ import {
   anypostConfig,
   brazeEmailConfig,
   emailWebhookConfig,
+  inboxjotConfig,
   infobipEmailConfig,
   mailerSendConfig,
   mailgunConfig,
@@ -171,6 +172,14 @@ export const emailProviders: IProviderConfig[] = [
     configurations: anypostGroupConfigurations,
     docReference: `https://docs.novu.co/platform/integrations/email/anypost${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'anypost.svg', dark: 'anypost.svg' },
+  },
+  {
+    id: EmailProviderIdEnum.Inboxjot,
+    displayName: 'Inboxjot',
+    channel: ChannelTypeEnum.EMAIL,
+    credentials: inboxjotConfig,
+    docReference: `https://docs.novu.co/platform/integrations/email/inboxjot${UTM_CAMPAIGN_QUERY_PARAM}`,
+    logoFileName: { light: 'inboxjot.svg', dark: 'inboxjot.svg' },
   },
   {
     id: EmailProviderIdEnum.Plunk,

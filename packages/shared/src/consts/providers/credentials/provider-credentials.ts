@@ -274,6 +274,16 @@ export const anypostConfig: IConfigCredential[] = [
   ...mailConfigBase,
 ];
 
+export const inboxjotConfig: IConfigCredential[] = [
+  {
+    key: CredentialsKeyEnum.ApiKey,
+    displayName: 'API Key',
+    type: 'string',
+    required: true,
+  },
+  ...mailConfigBase,
+];
+
 export const mailtrapConfig: IConfigCredential[] = [
   {
     key: CredentialsKeyEnum.ApiKey,

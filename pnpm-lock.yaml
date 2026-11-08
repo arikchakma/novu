@@ -4271,6 +4271,9 @@ importers:
       form-data:
         specifier: ^4.0.6
         version: 4.0.6
+      inboxjot:
+        specifier: ^0.1.0
+        version: 0.1.0
       mailersend:
         specifier: ^2.6.0
         version: 2.6.0
@@ -21977,6 +21980,10 @@ packages:
   indent-string@5.0.0:
     resolution: {integrity: sha512-m6FAo/spmsW2Ab2fU35JTYwtOKa2yAwXSwgjSv1TJzh4Mh7mC3lzAOVLBprb72XsTrgkEIsl7YrFNAiDiRhIGg==}
     engines: {node: '>=12'}
+
+  inboxjot@0.1.0:
+    resolution: {integrity: sha512-5OdL2Qs9mFHvG5trEffWX1w/TMamAuMD42c9sZrJSnEzkoZdRYA5uoAMNjZ0gWjMcjxeujcKr/yhAtnmE3FDBw==}
+    engines: {node: '>=18'}
 
   indexof@0.0.1:
     resolution: {integrity: sha512-i0G7hLJ1z0DE8dsqJa2rycj9dBmNKgXBvotXtZYXakU9oivfB9Uj2ZBC27qqef2U58/ZLwalxa1X/RDCdkHtVg==}
@@ -54206,6 +54213,8 @@ snapshots:
   indent-string@4.0.0: {}
 
   indent-string@5.0.0: {}
+
+  inboxjot@0.1.0: {}
 
   indexof@0.0.1: {}
 

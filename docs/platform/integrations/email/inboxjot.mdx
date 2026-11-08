@@ -1,0 +1,52 @@
+---
+title: 'Inboxjot'
+description: "Configure the Inboxjot email provider in Novu to send transactional notifications with an API key and a verified sender domain."
+---
+
+
+You can use the [Inboxjot](https://inboxjot.com/) provider to send transactional emails to your customers using the Novu Platform with a single API to create multi-channel experiences.
+
+## Getting Started
+
+To use the Inboxjot provider in the email channel, you will need to create an Inboxjot account and add your API key to the Inboxjot integration on the Novu platform.
+
+## Generating an API Key
+
+To generate a new API key in Inboxjot, you can follow these steps:
+
+- [Sign up](https://inboxjot.com/) or log in to your Inboxjot account.
+- Open **Developers**, then **API Keys**.
+- Click **Create API Key**, give it a name, and choose **Sending Access**. A key with sending access is enough for Novu.
+- Copy the generated API key.
+
+## Authenticating your Sender Identity
+
+Before you can send emails, you will need to verify the domain you send from.
+
+Add your domain under **Domains** in the Inboxjot dashboard and publish the DNS records it shows. Read the [domains guide](https://inboxjot.com/docs/domains) for details.
+
+## Creating an Inboxjot integration with Novu
+
+- Visit the [Integrations](https://dashboard.novu.co/integrations?utm_campaign=docs-inboxjot) page on Novu.
+- Click on Add a Provider.
+- Select Inboxjot service.
+- Enter your Inboxjot API Key.
+- Fill in the `From email address` field using an address on your verified domain.
+- Fill in the `Sender's name`.
+- Click on the `Disabled` button and mark it as `Active`.
+- Click on the **Update** button.
+- You should now be able to send notifications using Inboxjot in Novu.
+
+## Next Steps
+
+<Columns cols={2}>
+  <Card title="Configure bcc, cc, and reply-to" href="/platform/integrations/email#sending-email-overrides">
+    Learn how to configure bcc, cc, and reply-to for your email notifications using email overrides
+  </Card>
+  <Card title="Sending email attachments" href="/platform/integrations/email#sending-email-attachments">
+    Learn how to send attachments with email notifications
+  </Card>
+  <Card title="Use different email integration" href="/platform/integrations/email#sending-email-overrides">
+    Learn how to use different email provider integrations to be used to send emails
+  </Card>
+</Columns>

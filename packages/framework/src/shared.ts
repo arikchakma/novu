@@ -102,6 +102,7 @@ export enum TriggerEventStatusEnum {
 
 export enum EmailProviderIdEnum {
   Anypost = 'anypost',
+  Inboxjot = 'inboxjot',
   EmailJS = 'emailjs',
   Mailgun = 'mailgun',
   Mailjet = 'mailjet',
