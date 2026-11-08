@@ -74,7 +74,7 @@ export class InboxjotEmailProvider extends BaseProvider implements IEmailProvide
         code: CheckIntegrationResponseEnum.SUCCESS,
       };
     } catch (error) {
-      const isBadCredentials = error instanceof InboxjotError && (error.status === 401 || error.status === 403);
+      const isBadCredentials = error instanceof InboxjotError && error.status === 401;
 
       return {
         success: false,
